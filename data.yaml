@@ -1,0 +1,12 @@
+
+train: D:\DEVANSH COLLEGE\Btech 7th Sem\New folder\Defect Detection.v6i.yolov8\train\images
+val: D:\DEVANSH COLLEGE\Btech 7th Sem\New folder\Defect Detection.v6i.yolov8\valid\images
+test: D:\DEVANSH COLLEGE\Btech 7th Sem\New folder\Defect Detection.v6i.yolov8\test\images
+nc: 2
+names: ['dent_marginal', 'dent_unacceptable']
+roboflow:
+  workspace: dent-ydn9e
+  project: defect-detection-rhju6
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dent-ydn9e/defect-detection-rhju6/dataset/6
